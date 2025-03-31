@@ -1,0 +1,16 @@
+.education {
+    background: var(--primary-color-lighten);
+    &__container {
+        grid-template-columns: 1fr 1fr;
+        align-items:center;
+
+        
+    }
+    &__title {
+        margin-right: 1rem;
+        justify-self: start;
+    }
+    &__info {
+        justify-self: start;
+    }
+}

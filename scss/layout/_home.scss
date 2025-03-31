@@ -1,0 +1,20 @@
+.home {
+    padding-top: 5rem;
+    
+    
+    &__container{
+        grid-template-columns: 0.5fr 2fr 3fr;
+        align-items: center;
+    }
+
+    &__img{
+        justify-self: center;
+        max-width: 17rem;
+        order:1;
+    }
+
+
+    &__info {
+        justify-self: start;
+    }
+}

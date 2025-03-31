@@ -1,0 +1,14 @@
+.about {
+    margin-top: 3rem;
+    background: var(--primary-color-lighten);
+   
+    
+    &__title {
+        margin-right: 1rem;
+    }
+
+    &__info p {
+        margin-right: 2.25rem;
+        color: var(--title-color);
+    }
+}

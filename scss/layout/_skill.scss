@@ -1,0 +1,48 @@
+.skill {
+    &__title{
+        margin-right: 1rem;
+
+    }
+    &__info {
+        margin-top: 1.5rem;
+        margin-right: 2.5rem;
+
+    }
+
+    &__skills {
+        margin-top: 1rem;
+        margin-bottom: 1.5rem;
+    }
+
+    &__skills-container {
+        position: relative;
+        background: white;
+        height: 1rem;
+        width: 90%;
+        border-radius: 2rem;
+    }
+
+    &__value {
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: var(--primary-color-light);
+        height:100%;
+        width: 50%;
+        border-radius: 2rem;
+    }
+    &__value-90 {
+        width:90%;
+    }
+    &__value-60 {
+        width:60%;
+    }
+    &__value-30 {
+        width:30%;
+    }
+    &__value-70 {
+        width:70%;
+    }
+
+    
+}
